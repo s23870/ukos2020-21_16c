@@ -1,0 +1,6 @@
+01.11.2020
+Moj pamietnik na temat Gita. Pierwsze wrazenie: Git jest trudny ale mam nadzieje ze z czasem przyjdzie mi latwiej sie tym poslugiwac
+8.11.2020
+Nauczylem sei edytowac pliki, robic klona repozytorium, zrobil pull requestsa,  jak wyszukiwac informacji na temat danej komendy (man), wyswietlanie nazwy katalogu (ls), tworzenie pustych plkow (touch),(cd) zmiana bierzacego katalogu,
+wywietlanie listy plikow (tree) i aktualnego katalogu (pwd) , oraz aktualizowania zmian :)
+
