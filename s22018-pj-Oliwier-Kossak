@@ -10,7 +10,7 @@ First request  UKOS
 I used basic commands to solved exercises from szuflandia 
 I am wrong absolute path with realative path.
 I should remember that the abolute path (sciezka bezwgledna) always start with slash /
-Ctrl+Alt+f4 is key combination for which I must be careful, because i can lost my progress in my virtual machine.
+Ctrl+Alt+f4 is key combination for which i change graphic terminal to text terminal.
 
 
 2020.11.13
@@ -18,5 +18,6 @@ Second reguest UKOS
 I was created directory tree to  experminet with chmod command,
 after did this exercises i see progress in using linux.
 In my opinon I should more pratice with chmod, beacuse somtimes I am getting lost with it.
-Later I created some files with "echo" .
-I was try to log in to szuflandio , but today server doesnot work     
+Later I use echo and tail -f plik in two terminals two send message.
+I log in to szuflandia and i created catalog public_html with file storna.html.
+On my web I saw inscription "to jest moja strona domowa"    
