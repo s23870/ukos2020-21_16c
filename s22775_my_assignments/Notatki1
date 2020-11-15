@@ -1,0 +1,12 @@
+11.11.2020 
+Dzisiaj robiłem zadanie z Szymon Stefański, z UKO
+Dołączyliśmy do szuflandji przez terminal
+Spocątku osobno napisaliśmy pliki
+Póżniej napisałem coś u niego w pliku, utworzyłem i usunołem u niego plik
+I przy użyciu graficznego interfejsu 
+Zminiałem dostęp do plików, spotkaliśmy z jednym problemem, 
+Że wszedłem do vima na jego plik i kiedy próbowałem wyjść mnie pisało że:
+E45: opcja "readonly" jest ustawiona (wymuś popszez !)
+Ale mi wydaje to przez to że spoczątku nie zostało wpisuwane chmod u+w (file)
+cd możemy wykonywać tylko kiedy dozwolone eXecute
+
