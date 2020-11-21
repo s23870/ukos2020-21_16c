@@ -1,0 +1,11 @@
+Notatki z pierwszych zajęć ukos:
+1.Aby uruchomić terminal wystarczy wejść (graficznie) w przycisk "start" na pasku zadań, następnie przejść do "System Tools" > "LxTerminal".
+2.Żeby wyświetlić zawartość aktualnego katalogu należy użyć komendy "ls".
+3.Polecenie "pwd" (print working directory) służy do sprawdzenia gdzie aktualnie się znajdujemy.
+4.By przejść do katalogu "pulpit" za pomocą ścieżki względnej można posłużyć się poleceniem "cd pulpit".
+5.Poleceniem "ls" można także sprawdzić zawartość katalogu domowego bez konieczności wchodzenia do niego dzięki komendzie "ls /home".
+6.Analogicznie jak w podpunkcie "4" by przejść tym razem do katalogu "obrazy" z użyciem ścieżki względnej należy wpisać w terminalu polecenie "cd obrazy".
+7.Za pomocą ścieżki "././././././" przejdziemy do "bash: ././././././: Is a directory.
+8.Ścieżka bezwzględna wykorzystuje lokalizacje "od korzenia" tj. by przejść do katalogu domowego należy wpisać "cd /home".
+9.Polecenie "cd /root" nie wyświetla niczego ani nie  mogę go użyć , ponieważ nie mam do niego  uprawnień".
+10.Wciśnięcie kombinacji klawiszy "Ctrl+Alt+F1" spowoduje wymuszenie ponownego zalogowania przez system.
