@@ -1,0 +1,19 @@
+12.11.2020 Na pierwszych zajeciach nauczylem sie:
+
+Root to administrator 
+Wykładowca dobrze tłumaczy 
+bin-binarki lib i lib64 - biblioteki wszelkiego rodzaju 
+tmp - rzeczy tymczasowe 
+usr - rzeczy tymczasowe 
+swapfile - osobny plik i tak dalej moge wymieniac ale reszte mam zapisane 
+Jestem w stanie uzywac GIT i GitHuba
+Nie dziala mi stronka szuflandia 
+Polecenie "man" ratuje kazdego jak nie wiemy co zrobic to taki pomocny podrecznik polecen 
+skrypty zapisuje sie w sh 
+sciezka wzgledna - prowadzi nas w docelowe miejsce 
+sciezka bezwzgledna - sami musimy trafic 
+UKOS to fajny przedmiot da sie go zroumiec 
+Pwd - sprawdzanie gdzie jestemy 
+cd - przejscie do danego katalogu 
+ls - wyswietla zawartosc katalogu 
+cd root - pokazuje bash 
