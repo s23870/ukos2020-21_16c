@@ -50,14 +50,14 @@ Exercise 3
     Press Ctrl+C
     See what is in "wynik1.txt " file.
     
-    NOTHING - FILE IS EMPTY
+    *NOTHING - FILE IS EMPTY
 
     Issue command "cat > wynik2.txt"
     Write text "witaj" without using Enter key.
     Press Ctrl+D (maybe you must press 2 times)
     See what is in "wynik1.txt " file.
 
-    There is message "witaj" inside this file.
+    *There is message "witaj" inside this file.
 
 Exercise 4
 
@@ -67,10 +67,10 @@ Exercise 4
 
 Program was stopped but still worked in the background.
 
-To restart GIMP you have to enter the command bg. (fg -  open program in the first plan).
+Tip: To restart GIMP you have to enter the command bg. (fg -  open program in the first plan).
 
-gimp & -  you can starts program in the background from began.
+Tip: gimp & -  you can starts program in the background from began.
 
-jobs - showing all programs in the background.
+Tip: jobs - showing all programs in the background.
 
 For today that's it. See you in next month!!!
