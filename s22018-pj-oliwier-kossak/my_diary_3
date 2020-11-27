@@ -1,0 +1,6 @@
+27.11.2020
+I use command ls -a | grep D. After it I  saw directores which starts on letter D.
+Command kill is using to completion of the process. Kill 1750 closed Text Editor.
+I wrote killall firefox to close internet web. 
+gedit & opened Text Editor.I used ctrl+z, but program didnt stopped working.
+Jobs shows programs which working in background.
