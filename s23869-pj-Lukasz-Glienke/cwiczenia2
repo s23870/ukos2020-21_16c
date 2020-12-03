@@ -1,0 +1,16 @@
+Notatki z 2 zajeć ukos:
+Podłączanie do szuflandii (ssh s23869@szuflandia.pjwstk.edu.pl) po zatwierdzeniu wyświetli się pytanie (jeśli wchodzisz pierwszy raz lub gdy coś było modyfikowane na serwerze) dotyczące czy na pewno chcemy się połączyć z serwerem.
+W następnym kroku trzeba podać swoje hasło.
+Stworzyliśmy katalog "tmp" do którego nadaliśmy uprawnienia dla grupy do pliku stworzonego w tym katalogu (chmod g+w .) (chmod g+w plik.txt)
+Zajęcia były prowadzone w parach, druga osoba z pary aby stworzyć plik w "moim" serwerze musi wykonać polecenie (touch /home/PJWSTK/s23869/tmp/jajo).
+Kolega który utworzył plik "jajo" ma tylko uprawnienia do zapisu w tym pliku więc trzeba to zmienic (chmod g+w jajo).
+Operacja niestety się nie uda , ponieważ nie jesteśmy jego właścicielem pliku(jest nim kolega z pary).
+Możemy usunąć go za pomocą (rm jajo).
+Za pomocą polecenia (echo czesc > plik.txt) wpiszemy słowo "czesc" do pliku "plik.txt"
+Kolega z pary by wpisać coś w ten sam sposób musi wpisać dodatkowo ścieżke do pliku.
+Komenda tail -f plik.txt powoduje zawieszenie terminala dzięki czemu będziemy widzieć kiedy kolega wpisze coś do pliku.
+
+
+Za pomocą tego samego serwera możemy utworzyć stronę internetową by to zrobić należy utworzyć plik "strona.html".
+Wpisać coś do niego za pomocą polecenia "nano" (nano strona.html) jakiś tekst a następnie za pomocą przeglądarki wpisać adres https://szuflandia.pjwstk.edu.pl/~s23869/
+
