@@ -1,0 +1,33 @@
+Sprawdzanie polecenia "ls -a" oraz "ls -a | grep D". Polecenie z "grep" sluzy do wyszukiwania wierszy w pliku lub strumieniu wejsciowym(skopiowalem to z szuflandii).
+Chodzilo i wyszukanie pliku cos ma literke "D".
+
+"ls -a | grep D > ListaPlikowZLiterkaD.txt" bash: ListaPlikowZLiterkaD.txt: Permission denied.
+
+1.
+"ps -a" all with tty, except session leaders - roznica miedzy "ps" a "ps-a" jest taka ze "ps" wyswietla 3 pliki, a "ps -a" wyswietla tylko dwa(nie pokazuje basha).
+"ps -x" pokaze na kilka procesow w numerem, tty, stat czas oraz komende.
+PID TTY      STAT   TIME COMMAND
+ 743 ?        Ss     0:00 /lib/systemd/systemd --user
+"ps -aux" wyswietli dodatkowo usera i kilka innym informacji jak (wykorzystanie procesora czy pamieci).
+
+komendą "ps -C bash"- wyswietlimy procesy bash <---- nie jestem pewien czy to to.
+Komendą "ps -U root" - wywietlimy procesy należące do użytkownika root. Jeżeli chcemy wypisać wszystkie procesy poza root'me wpisujemy "ps -U root -u root -N".
+
+2.
+Uruchomilem Text Editor, za pomoca komendy "ps -x" wyszukalem go w procesach i znalazlem jego PID(nazwa procesu gedit).  Za pomoca komendy "kill 1603" zamknąłem edytor tekstu.
+Komenda "killall shell" shell: no process found.
+"Kill" nie zadziala na wszystkie procesu. root       281  0.0  0.0      0     0 ?        I<   Dec08   0:00 [iprt-VBoxWQueue], bash: kill: (281) - Operation not permitted.
+
+3.
+skrót klawiszowy ctrl + c zatrzymal aktualny process/wykonywana komende.
+Nie widze jakiejs znaczacej roznicy miedzy ctrl + d, a ctrl + c. 
+4.
+Nie moglem zainstalowac gimpa wiec zrobilem to zadanie na edytorze tekstu. Wpisalem w konsoli gedit i powpisywalem cos w edytorze. Skrótem klawiszowy ctrl + z zatrzymalem program cos daje efekt zawieszenia sie programu badz brak odpowiedzi.
+komenda "bg" wyswietlila na ekranie z powrotem edytor tekstu i znowu mozna bylo w nim pisac.
+komenda "fg" 
+ubuntu@bss-ubu1804:/$ fg
+gedit
+skrotem klawiszowy ctrl + c zatrzymalem proces co skutkowalo zamknieciem programu.
+uzylem komendy oraz "geany &"  "gedit &"  uruchomily sie dwa programy. poleceniem "jobs" wyswietlimy mi sie aktualnie zadania przeniesione do tla. Sprawdzilem rowniez tym poleceniem ich numer procesu.
+poleceniem "fg" probowalem przeniesc gedit na pierwszy plan ale tylko go zatrzymalo [2] running gedit & --> [2] stopped gedit &. "bg" przywrocilo running.
+ b

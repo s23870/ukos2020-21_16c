@@ -1,0 +1,13 @@
+1.Notatki z 2 zajeć ukos:
+Łączymy sie z szuflandia za pomoca ssh sxxxxx@szuflandia.pjwstk.edu.pl gdzie x to numery naszego identyfikatora. Nastepnie podajemy hasło.
+Wchodzimy do stworzonego katalogu "tmp" w którym tworzymy np plik.txt(touch plik.txt). 
+Będąc w  katalogu "tom" nadajemy grupie uprawnienia do folderu i pliku znajdujacym sie w tym folderze.(chmod g+w .) oraz (chmod g+w plik.txt).
+Za pomocą komendy "ls -l" sprawdzamy aktualne uprawnienia.
+Jedna z osob udostepnila swoja aktualna scieżkę (badź miejsce gdzie sie znajduje), druga osoba tworzy w tym folderze plik (touch /home/PJWSTK/sxxxxx/tmp/jajo).
+x to numer osoby ktora udostepnila nam sciezke.
+Osoba ktora stworzyła plik jajo ma uprawnienia do tego pliku, osoba ktora udostepnila sciezke tych uprawnien nie ma, ale moze usunac plik bo jest wlascicielem katalogu w ktorym on sie znajduje(rm jajo).
+Za pomocą polecenia (echo czesc > plik.txt) wpiszemy jakies tekst/slowo np. "czesc" do pliku "plik.txt"
+Za pomoca polecenia "cat plik.txt" zobaczymy czy plik ma juz to wartosc. Wyswietli sie "czesc".
+Poleceniem "tail -f plik.txt" tak jakby zablokujemy se terminal, ale bedziemy miec caly czas wglad na plik.txt. Jezeli druga osoba wprowadzi jakies zmiany nam na bieżąco beda sie te zmieny pokazywaly/odswiezaly.
+Kolega z pary by wpisać coś w ten sam sposób musi wpisać dodatkowo ścieżke do pliku. (echo witam > /home/PJWSTK/sxxxxx/tmp/plik.txt).
+Uprawnienia mozemy dodawac jak i odejmowac np (g+w o-r). lub tez za pomoca cyfr (chmod 705, wlasciciele pelen dostep, grupa zadnych uprawnien, pozostali odczyt i wykonywanie bez zapisu).
