@@ -1,0 +1,16 @@
+Ćwiczenie nr 1:
+===================================================================================================================================
+1.Klikamy start  > "System Tools"  > "LXTerminal"
+2.Zawartość katologu wyświetlamy za pomocą komendy "ls"
+3. Poleceniem "pwd" sprawdzamy gdzie się aktualnie znajdujemy .
+4.(Ścieżka względna) Używamy "cd pulpit" aby przejść do katalogu "pulpit"
+5. Poleceniem "pwd" sprawdzamy gdzie się aktualnie znajdujemy .
+6.Poleceniem "ls" wyświetlamy zawartość katalogu.
+7.Nie wiem jak na to odpowiedzieć.
+8. Za pomoca polecenia "ls /home"
+9.	Komenda "cd Obrazy".
+10. Komenda "pwd".
+11.Za pomocą ścieżki "././././././" przejdziemy do "bash: ././././././: Is a directory".
+12. cd /home.
+13.Ukaze sie "bash: cd: /root: Permission denied" Brak uprawniej. Trzeba uzyc konta admina "sudo"
+14. Powrocimy do ekranu logowania. :)
