@@ -1,0 +1,76 @@
+25.11.2020
+My dear diary, today I do some exercises about processes and streams.
+
+Warm up task:
+TASK: Go to your home directory and issue this command:
+ls -a
+*There was 17 directories and 19 files
+
+See how many files have been printed. Now execute that command:
+ls -a | grep D
+*There was 3 directories
+
+ls -a | grep D > ListaPlikówZLiterkąD.txt
+* There has been created new txt file , when I write cat command it shows folders with the letter d
+*> Means to redirect standard output to a file
+
+Exercise 1
+
+The "ps" command is used to show a list of processes. See what happens if we type it in the terminal:
+
+    ps -  Displayed basic process data.
+    ps -a - Displayed basic process data without process about bash,
+    ps x -  Displayed data about more processes.
+    ps aux - Displayed detailed data about processes.
+
+*When there is ? mark it mean's that process has no controlling terminal.
+A process with no controlling terminal is a daemon.
+
+Bash and root processes:
+*I used command ps -ef | grep bash/root
+
+Exercise 2
+
+1. I opened TEXT Editor,
+2. I saw his PID by using command: ps aux | grep gedit and it was: 1336.
+3. I closed it by using command: kill 1336.
+4. I opened seberal firefox windows and closed them by using command: killall firefox.
+5. As a user I can only kill my own processes, a root I can kill all of them.
+
+Exercise 3
+
+ 1. We run command "cat" with no parameters.
+*Nothing happens, process open etc...
+
+ 2. Press CTRL + C and see what happens:
+*CTRL + C the process is closes.
+
+    Issue command "cat > wynik1.txt"
+    Write text "witaj" without using Enter key.
+    Press Ctrl+C
+    See what is in "wynik1.txt " file.
+    
+    *NOTHING - FILE IS EMPTY
+
+    Issue command "cat > wynik2.txt"
+    Write text "witaj" without using Enter key.
+    Press Ctrl+D (maybe you must press 2 times)
+    See what is in "wynik1.txt " file.
+
+    *There is message "witaj" inside this file.
+
+Exercise 4
+
+*I opened gimp'a.
+*I press CTRL + Z.
+*In GIMP I can't do anything.
+
+Program was stopped but still worked in the background.
+
+Tip: To restart GIMP you have to enter the command bg. (fg -  open program in the first plan).
+
+Tip: gimp & -  you can starts program in the background from began.
+
+Tip: jobs - showing all programs in the background.
+
+For today that's it. See you in next month!!!

@@ -1,0 +1,51 @@
+11.11.2020
+My dear diary today I would like to tell you about
+my second exercises from szuflandia UKOS 02 which I did.
+
+First part of those tasks was quite intresting for me
+than others - because I need to do it which someone else.
+I did it with Oleksii - we have a few moment of stress
+but it was good pratcice and I think that was good
+because we learn a lot of things. First we created in
+our accounts directories which we named "tmp"(using
+mkdir tmp command) . Next we created files in those
+directories which we named "plik.txt"(using touch plik.txt
+command). In the next step we changed access rights in 
+those directories and files to give access to all users (
+using chmod g+w command). Next I created a file "jajo" in
+Oleksii directory and he do that same thing in my directory
+(using touch /home/PJWSTK/s00000/tmp/jajo command). Next
+we removed those files from our directories (using rm command)
+and we manipulated which plik.txt files - we wrote inside this
+files some words, I did this in Oleksii file and he did this
+in my file (using echo slowo > /home/PJWSTK/s00000/tmp/plik.txt
+command). After that I remove those directory and file (using 
+rmdir and rm command) in my account and complete this part.
+
+Second part of those tasks was about access rights but in
+my own situation. I took my access rights away and I tried
+to get out of this situation. First I created two directories
+one inside another "a and b" (using mkdir -p a/b command).
+Next I created file c inside b directory (using command touch c).
+Next I took my acces right away and I can't do anything!!! (using
+chmod 000 command). I needed to go back to a directory and use 
+command chmod 755 b  to get back my acces and I finally can do
+somethings with b directory and c file. Next I go to b directory
+and use command chmod 000 to took away my access rights to a
+directory - in this situation I wasn't able to use cd.. or 
+cd../.. command, I had to use cd/home/PJWSTK/s22043/tmp command
+to get out of this place. To get back my access rights to a
+directory I used command chmod a+rx, u+w a. It was nice task.
+  
+Last part of those tasks was about HTML and my own webpage on
+szuflandia. I'm just created public_html (useing command mkdir)
+directory and file strona.html (useing command touch) inside it.
+Inside strona.html I wrote some HTML command which weren't a 
+surprise for me because I have small experience in creating 
+a websites, but I didn't know that we can remove access right
+for user and users groups and we only need to get access rights 
+to read for other users to show our websites - it's nice to 
+know that.
+
+That's it for today. See you!!!
+
