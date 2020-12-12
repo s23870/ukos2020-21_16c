@@ -1,0 +1,15 @@
+11.11.2020 Z zajec drugich Z UKO zrozumialem:
+
+zeby polaczyc sie z szuflandia trzeba wpisac ssh swoje id studenta i nastepnie
+ten adres "@szuflandia.pjwstk.edu.pl". Nastepnie tworzymy katalog tmp i potem w tym katalogu tworzymy plik za pomoca komendy touch rowniez nadajemy uprawnienia za pomoca chmod g+w. 
+Cale zadanie zrobilem z Lukaszem Glienke. 
+Nastepnie utworzylem plik jajo za pomoca komendy(touch/home/PJWSTK/s23884/jajo).Potem w pliku.txt dodałem pare slow elo, czesc, za pomoca komendy "echo elo > /home/PJWSTK/s23884/tmp/plik.txt.
+Nastepnie zadanie dotyczylo praw dostepu troche problemow mialem z tym i do konca nie zrobilem.
+Kolejna czesc zadania dotyczyla strony internetowej i html. 
+Stworzylem katalog za pomoca komendy "mkdir public_html". Potem przeszedlem do tego katalogu przy pomocy komendy cd. 
+Dowiedzialem sie ze mozna usunac prawa dostepu dla uzytkownikow i grup ale za towtedy musimy uzyskac dostep dla innych uzytkownikow zeby wyswietlic nasza stroneinternetowa.
+Wpisalem w przegladarke adres szuflandi ze swoim id studenta i przenioslo mnie
+do strony i mojego pliku.
+Fajne doswiadczenie zwiazane ze stronami i z reszta komend coraz wiecej wiem juzz ukos dzieki Panu.
+Pozdrawiam 
+Milego dnia 
