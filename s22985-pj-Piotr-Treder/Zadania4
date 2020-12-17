@@ -1,0 +1,152 @@
+17.12.2020.
+
+04 powtórzenie
+
+1
+
+ubuntu@bss-ubu1804:/tmp/ukos$ tree
+.
+├── ala
+│   ├── i
+│   │   └── as
+│   └── ma
+│       └── kota
+└── kot
+    └── ma
+        └── ale
+
+8 directories, 0 files
+
+ścieżka bezwzględna
+
+ubuntu@bss-ubu1804:/tmp/ukos/ala/ma/kota$ cd /tmp/ukos/kot/ma/ale
+ubuntu@bss-ubu1804:/tmp/ukos/kot/ma/ale$ 
+
+ścieżka względna 
+
+ubuntu@bss-ubu1804:/tmp/ukos/ala/ma/kota$ cd ../../../kot/ma/ale
+ubuntu@bss-ubu1804:/tmp/ukos/kot/ma/ale$ 
+
+2
+
+ubuntu@bss-ubu1804:/tmp/ukos/ala/ma/kota$ mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+
+ubuntu@bss-ubu1804:/tmp/ukos$ tree
+.
+├── ala
+│   ├── i
+│   │   └── as
+│   └── ma
+│       └── kota
+└── kot
+    └── ma
+        └── ale
+            └── jan
+                └── kowalski
+
+10 directories, 0 files
+
+3 
+
+ubuntu@bss-ubu1804:/tmp/ukos$ mv /tmp/ukos/kot/ma/ale/ /tmp/ukos/ala/i
+ubuntu@bss-ubu1804:/tmp/ukos$ tree
+.
+├── ala
+│   ├── i
+│   │   ├── ale
+│   │   │   └── jan
+│   │   │       └── kowalski
+│   │   └── as
+│   └── ma
+│       └── kota
+└── kot
+    └── ma
+
+10 directories, 0 files
+
+4 
+
+5
+
+ubuntu@bss-ubu1804:/tmp/ukos$ tree | grep al
+├── ala
+│   │   ├── ale
+│   │   │       └── kowalski
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+6 
+
+octal numeration
+
+ubuntu@bss-ubu1804:/tmp/ukos$ chmod 741 ala
+ubuntu@bss-ubu1804:/tmp/ukos$ ls -l
+total 8
+drwxr----x 4 ubuntu ubuntu 4096 Dec 17 14:05 ala
+drwxrwxr-x 3 ubuntu ubuntu 4096 Dec 17 14:05 kot
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+symbolic numeration 
+
+ubuntu@bss-ubu1804:/tmp/ukos$ chmod u=rwx,g=r,o=x ala
+ubuntu@bss-ubu1804:/tmp/ukos$ ls -l
+total 8
+drwxr----x 4 ubuntu ubuntu 4096 Dec 17 14:05 ala
+drwxrwxr-x 3 ubuntu ubuntu 4096 Dec 17 14:05 kot
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+7 
+
+ubuntu@bss-ubu1804:/tmp/ukos$ tree > plik
+ubuntu@bss-ubu1804:/tmp/ukos$ cat plik
+.
+├── ala
+│   ├── i
+│   │   ├── ale
+│   │   │   └── jan
+│   │   │       └── kowalski
+│   │   └── as
+│   └── ma
+│       └── kota
+├── kot
+│   └── ma
+└── plik
+
+10 directories, 1 file
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+8
+
+9
+
+<TAB> key helps to complete the command
+
+10
+
+1. we need to check id of program with command 'jobs' 
+then command bg ( background ) causes, that cmd and programm wtill working
+for example: 
+
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+^Z[2]   Done                    gedit
+
+[3]+  Stopped                 gedit
+ubuntu@bss-ubu1804:/tmp/ukos$ bg %1
+bash: bg: %1: no such job
+ubuntu@bss-ubu1804:/tmp/ukos$ bg %T3
+bash: bg: %T3: no such job
+ubuntu@bss-ubu1804:/tmp/ukos$ bg %3
+[3]+ gedit &
+ubuntu@bss-ubu1804:/tmp/ukos$ 
+
+
+
+
+
+
+
+
+
+
+
+
